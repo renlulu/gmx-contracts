@@ -98,6 +98,13 @@ module.exports = {
       decimals: 18
     }
   },
+  arbitrumGoerli: {
+    nativeToken: {
+      name: "weth",
+      address: "0x00A7Da5BA5Df374F08cc84b6b97E559dB4b6B0",
+      decimals: 18
+    }
+  },
   arbitrumTestnet: {
     // https://docs.chain.link/docs/arbitrum-price-feeds/
     btcPriceFeed: { address: "0x0c9973e7a27d00e656B9f153348dA46CaD70d03d" },
